@@ -80,7 +80,6 @@ class _TextFieldScreenState extends State<TextFieldScreen> {
       width: double.infinity, // ✅ responsive button
       child: ElevatedButton(
         onPressed: () {
-          debugPrint(_nameController.text);
         },
         child: const Text('Click'),
       ),
