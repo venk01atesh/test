@@ -10,6 +10,7 @@ class back extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body:ListView(
+        scrollDirection: Axis.vertical,
         children:[ Stack(
           clipBehavior: Clip.none,
           children: [
